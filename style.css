@@ -1,9 +1,8 @@
 body {
     background: linear-gradient(
         135deg,
-        #909390,
+        #ebefeb,
         #111111
-         #111111
     );
 
     font-family: Arial, sans-serif;
@@ -17,8 +16,29 @@ body {
 .container {
     width: 350px;
     margin: 60px;
-    background-color: rgb(79, 77, 77);
+    background-color: rgb(160, 155, 155);
     padding: 30px;
     border-radius: 15px;
     text-align: center;
 }
+input{
+    width: 90%;
+    height: 40px;
+    margin-top: 10px;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+
+}
+
+button{
+    width: 95%;
+    height: 45px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4facfe;
+    color: white;
+    font-size: 16px;
+}
+
